@@ -1,7 +1,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-# Build the proxy from the resilient fork that isolates per-device failures.
+# Build from the resilient proxy fork that isolates per-device failures.
 COPY rootfs /
 
 RUN apk add --no-cache gcc g++ make libffi-dev openssl-dev \
