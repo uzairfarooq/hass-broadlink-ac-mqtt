@@ -1,13 +1,13 @@
 name: AC MQTT proxy for home assistant
-version: 0.6.8
+version: 0.6.9
 slug: broadlink-ac-mqtt
 description: Provides AC MQTT proxy for home assistant
-url: "https://github.com/Arbuzov/hass-broadlink-ac-mqtt"
+url: "https://github.com/uzairfarooq/hass-broadlink-ac-mqtt"
 arch:
   - aarch64
   - amd64
 init: false
-image: "ghcr.io/arbuzov/{arch}-addon-broadlink-ac-mqtt"
+image: "ghcr.io/uzairfarooq/{arch}-addon-broadlink-ac-mqtt"
 options:
   service:
     daemon_mode: true

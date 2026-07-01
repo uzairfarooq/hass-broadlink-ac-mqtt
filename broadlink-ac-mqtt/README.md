@@ -1,6 +1,6 @@
 # AC MQTT proxy for Home Assistant — Add-on
 
-This add-on embeds the [liaan/broadlink_ac_mqtt](https://github.com/liaan/broadlink_ac_mqtt) project into Home Assistant.
+This add-on embeds a resilient fork of [broadlink_ac_mqtt](https://github.com/uzairfarooq/broadlink_ac_mqtt) into Home Assistant. An unavailable AC is retried independently so it cannot take healthy AC devices offline.
 
 ## Configuration
 

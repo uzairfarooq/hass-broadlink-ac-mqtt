@@ -1,5 +1,11 @@
 <!-- https://developers.home-assistant.io/docs/add-ons/presentation#keeping-a-changelog -->
 
+## 0.6.9
+
+- Keep the MQTT proxy running when one configured AC is offline during startup
+- Retry unavailable AC devices every 60 seconds without interrupting healthy devices
+- Build from `uzairfarooq/broadlink_ac_mqtt@1.2.4`
+
 ## 0.6.8
 
 - Bump upstream to `Arbuzov/broadlink_ac_mqtt@1.2.3`, which restores the Linux config-path fallback that 1.2.2 had regressed (the broken Windows-style fallback caused `FileNotFoundError: '/usr/share/broadlink_ac_mqtt-1.2.2\\settings\\config.yml'` on add-on startup)
